@@ -1,0 +1,65 @@
+CloudContact by harshil-het
+
+🏋️‍♂️ GORILLA GRIND: MVP PRD
+
+
+The previous PRD outlined the features and technical specs. To go deeper, let's focus on the user experience (UX) and screen flow, which is crucial for a product whose main goal is to be "fat responsive" and save time.
+
+1. User Journey & Screen Flow
+The user journey through the Gorilla Grind MVP is designed to be quick, intuitive, and highly focused. The entire experience should feel fast and rewarding, from the first login to completing a meal.
+
+Onboarding & Setup
+Screen 1: Welcome & Intro. A simple, visually appealing screen introducing the app's core value: "Fuel Your Gains. Beat the Bot."
+
+Screen 2: Personal Biometrics. A form for users to input their height, weight, age, and gender. The design will use simple sliders or drop-down menus to minimize typing.
+
+Screen 3: Goal Selection. A visually engaging screen with large icons for "Muscle Gain," "Fat Loss," and "Maintenance." Tapping an icon provides a brief description of the goal.
+
+Screen 4: Taste Preferences. A checklist or multi-select screen with options like "Heavy & Filling," "Light & Frequent," "High-Protein," etc. This is where the user can choose a "banana shake" mindset.
+
+Screen 5: Rival Reveal. An animated screen that introduces the user's AI rival, showing its name and a brief, competitive message.
+
+2. User Experience (UX) & Design
+The user experience will be the central focus, ensuring the app is not just functional but also a pleasure to use.
+
+Visual Design & Style
+Aesthetics: The app will adopt a modern, clean, and energetic aesthetic with a dark mode by default to save battery life and reduce eye strain, which is important for people who might be using the app early in the morning or late at night.
+
+Color Palette: Use a vibrant accent color (e.g., bright orange or electric blue) against a dark background to highlight key elements and call-to-action buttons.
+
+Typography: A bold, sans-serif font will be used for headings to convey strength, with a clean, easy-to-read font for body text.
+
+Interaction Design
+"Fat Responsive" Design: This is a core requirement. All buttons will be large and easy to tap, even with a single thumb. There will be minimal nested menus to reduce cognitive load. The most important actions—"view today's plan" and "mark as complete"—will be front and center on the home screen.
+
+Gestures: The user can swipe left or right to see a day's meal plan or swipe down to refresh content.
+
+Animations: Small, rewarding animations will be used for key actions. For example, marking a meal as complete could trigger a quick burst of XP points or a celebratory checkmark animation. The AI rival's XP bar will animate in real-time when it gains an advantage, creating a sense of urgency and competition.
+
+3. Screen-by-Screen Breakdown
+Dashboard (Home Screen)
+Header: Displays the user's current level and XP, along with a progress bar.
+
+Central Area: Features a large, clear view of the current day's meal plan. Each meal will be in its own card with the name, a small image, and the calorie count.
+
+Action Buttons: Each meal card has a prominent "✔️ Complete" button. This is the primary user engagement loop.
+
+Rival Status: A smaller card or banner at the bottom or top of the screen shows the AI rival's level and XP, with a clear callout if the rival is ahead.
+
+Meal Detail Screen
+Meal Name & Image: A large, high-quality photo of the meal.
+
+Nutritional Breakdown: A clear, easy-to-read list of calories, protein, carbs, and fat.
+
+Description/Instructions: Simple, concise steps on how to prepare the meal.
+
+Action Button: A prominent "Swap Meal" button that takes the user to a list of alternative options.
+
+Meal Swap Screen
+Header: Displays the original meal and the current goal (e.g., "Swap for Muscle Gain").
+
+Meal List: A vertical list of alternative meals, each showing a small image, name, and its nutritional info. This allows for quick, informed choices.
+
+Selection: Tapping a new meal instantly replaces the old one on the dashboard.
+
+By prioritizing a simple, visually engaging, and fast user experience, the app will live up to its "fat responsive" promise and seamlessly integrate into a busy gym rat's routine.

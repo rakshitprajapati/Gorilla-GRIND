@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Spline+Sans%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #38e07b;
+      }
+    </style>
+</head>
+<body class="bg-[#111714] dark group/design-root" style='font-family: "Spline Sans", "Noto Sans", sans-serif;'>
+<div class="relative flex size-full min-h-screen flex-col overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#29382f] px-10 py-4">
+<div class="flex items-center gap-4 text-white">
+<div class="size-6 text-[var(--primary-color)]">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-white text-xl font-bold leading-tight tracking-[-0.015em]">FitQuest</h2>
+</div>
+<nav class="flex items-center gap-8 text-base font-medium text-[#9eb7a8]">
+<a class="text-white" href="#">Home</a>
+<a class="transition-colors hover:text-white" href="#">Workouts</a>
+<a class="transition-colors hover:text-white" href="#">Meals</a>
+<a class="transition-colors hover:text-white" href="#">Progress</a>
+<a class="transition-colors hover:text-white" href="#">Community</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="flex size-10 cursor-pointer items-center justify-center overflow-hidden rounded-full bg-[#29382f] text-white transition-colors hover:bg-[#34463a]">
+<div class="text-white" data-icon="Bell" data-size="24px" data-weight="regular">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"></path>
+</svg>
+</div>
+</button>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDDLRbcImD7FuLe0s9M4A4qgQ80c3v5Mulx1kLFRqMzXEkLoAwHk9RXfWbCAbaNKx_uPTelsqRFruNFrFebk9NXtSjAxf_gfZ59BogYUOZO-kBrOXH9fW1ABFc09Nmi-giI4Q42EEGWZYBs6p7jopDyrYLrxjsWzZHeeXWLjRG2V5Zjf5FKNdxQQox0-G8al-WJMudF9Q3x09Jxmow1EC4xRQ0-sb3eONlRSdM6msul2-2gK-C4wtVZo7fMbTonOyNvNvjfBuXQu1M");'></div>
+</div>
+</header>
+<main class="flex flex-1 justify-center py-10 px-40">
+<div class="layout-content-container flex w-full max-w-5xl flex-col gap-8">
+<div class="flex flex-wrap items-end justify-between gap-4">
+<div class="flex flex-col gap-2">
+<h1 class="text-white text-4xl font-bold leading-tight tracking-tighter">Today's Meals</h1>
+<p class="text-[#9eb7a8] text-lg font-normal leading-normal">Track your meals and stay on top of your fitness goals.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 gap-6">
+<a class="group flex cursor-pointer items-stretch justify-between gap-6 rounded-2xl bg-[#1a221d] p-6 transition-all hover:bg-[#202924] hover:shadow-lg" href="#">
+<div class="flex flex-[2_2_0px] flex-col justify-between gap-4">
+<div class="flex flex-col gap-2">
+<h3 class="text-white text-xl font-bold leading-tight">Breakfast</h3>
+<p class="text-[#9eb7a8] text-base font-normal leading-normal">Oatmeal with berries and nuts</p>
+</div>
+<div class="flex h-10 w-fit cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-full bg-transparent px-4 text-sm font-bold leading-normal tracking-wide text-white ring-2 ring-[var(--primary-color)] transition-all hover:bg-[var(--primary-color)] hover:text-[#111714]">
+<svg class="hidden group-hover:block" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="20 6 9 17 4 12"></polyline></svg>
+<span>Complete</span>
+</div>
+</div>
+<div class="w-full flex-1 rounded-xl bg-cover bg-center bg-no-repeat transition-transform group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDHhgJ3-ReuERAPczYILP8j3EscDVNAp-pkgefKSQ7hVCVzHpTCuTq5W6uyJzzL3tq4BAi6ub0ouiMMZFzCJeFPZHLSpnpyai9dlvRnDw3Y55dEjFcfKhdABNv1EzPC8hsx10-XEwAGW6ql83BKtlru0OjzWW3Vx7PMgV4R03wvXRF8jPR1JAn24CoMCLCnIK2oBRW5IzMpE5ejEOWTd_NsLD6g5KM-EiSFyLWasXsU-jwRtFZ4mQBI_C4HyZb6yl_QB4XOQnSsF8o");'></div>
+</a>
+<a class="group flex cursor-pointer items-stretch justify-between gap-6 rounded-2xl bg-[#1a221d] p-6 transition-all hover:bg-[#202924] hover:shadow-lg" href="#">
+<div class="flex flex-[2_2_0px] flex-col justify-between gap-4">
+<div class="flex flex-col gap-2">
+<h3 class="text-white text-xl font-bold leading-tight">Lunch</h3>
+<p class="text-[#9eb7a8] text-base font-normal leading-normal">Grilled chicken salad with mixed greens</p>
+</div>
+<div class="flex h-10 w-fit cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-full bg-transparent px-4 text-sm font-bold leading-normal tracking-wide text-white ring-2 ring-[var(--primary-color)] transition-all hover:bg-[var(--primary-color)] hover:text-[#111714]">
+<svg class="hidden group-hover:block" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="20 6 9 17 4 12"></polyline></svg>
+<span>Complete</span>
+</div>
+</div>
+<div class="w-full flex-1 rounded-xl bg-cover bg-center bg-no-repeat transition-transform group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCMMbRZF73KyorI_UJxluTdPjuxGlS78vdiiRl7l22zOT2FjSU7GjO4bOTKlHWFVsE7pQrNOUXNpijyxeR_0wvvWxg1ypRr8FBR3PIRVMGYPrS3xShoZo8IxtA0Xjb4mo9OOvYN8x_tOx6Y-9CZk8zP5eQHJWoM0rEF57wbpOWYpdb3WvIkcDMt3H9k_whVL7qVStBzxIyMYp3Ibaz8uEWilkQWaywDE_gbiQIWJ5O4MHhmar55BtZAbm1DSIUR3qf6R77ItR41Y-M");'></div>
+</a>
+<a class="group flex cursor-pointer items-stretch justify-between gap-6 rounded-2xl bg-[#1a221d] p-6 transition-all hover:bg-[#202924] hover:shadow-lg" href="#">
+<div class="flex flex-[2_2_0px] flex-col justify-between gap-4">
+<div class="flex flex-col gap-2">
+<h3 class="text-white text-xl font-bold leading-tight">Dinner</h3>
+<p class="text-[#9eb7a8] text-base font-normal leading-normal">Salmon with roasted vegetables</p>
+</div>
+<div class="flex h-10 w-fit cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-full bg-transparent px-4 text-sm font-bold leading-normal tracking-wide text-white ring-2 ring-[var(--primary-color)] transition-all hover:bg-[var(--primary-color)] hover:text-[#111714]">
+<svg class="hidden group-hover:block" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="20 6 9 17 4 12"></polyline></svg>
+<span>Complete</span>
+</div>
+</div>
+<div class="w-full flex-1 rounded-xl bg-cover bg-center bg-no-repeat transition-transform group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAThdLQVG-KFTfRS2TXUPWEygyq3pSHfM9E_9Jwp_6yHSV8vfqe37JFIUcCP_MbeWlRtjRc5XKZe3Hv65aOR16w6Lbi63WGGrjfHFf_VNVgER1ZUzJ7DMJ_QQW4Pq4x9DznyGH7cE6BIGMK5-VwhU7b1TMYg-LuVh-P5UFe7RGHT5LmOO7BFuTjN1lbPKLXcM7BCEewIf_DmUyqQBWxz9jsRfB_eEmcTqR6nfkBFU99cm9wx887W4GFpsxITjIOKz0uWL3sAKFsjzQ");'></div>
+</a>
+</div>
+</div>
+</main>
+</div>
+</div>
+
+</body></html>
